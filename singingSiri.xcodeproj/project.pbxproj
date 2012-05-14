@@ -30,6 +30,8 @@
 		E6EA003F1561B006004E7F3A /* MagicalMysteryTour.m in Sources */ = {isa = PBXBuildFile; fileRef = E6EA003D1561B006004E7F3A /* MagicalMysteryTour.m */; };
 		E6EA00431561B1C1004E7F3A /* PumpedUpKicks.h in Headers */ = {isa = PBXBuildFile; fileRef = E6EA00411561B1C1004E7F3A /* PumpedUpKicks.h */; };
 		E6EA00441561B1C1004E7F3A /* PumpedUpKicks.m in Sources */ = {isa = PBXBuildFile; fileRef = E6EA00421561B1C1004E7F3A /* PumpedUpKicks.m */; };
+		E6EA00481561B5F0004E7F3A /* Imagine.h in Headers */ = {isa = PBXBuildFile; fileRef = E6EA00461561B5F0004E7F3A /* Imagine.h */; };
+		E6EA00491561B5F0004E7F3A /* Imagine.m in Sources */ = {isa = PBXBuildFile; fileRef = E6EA00471561B5F0004E7F3A /* Imagine.m */; };
 		E6EAFFD41560DE56004E7F3A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E6EAFFD31560DE56004E7F3A /* Foundation.framework */; };
 		E6EAFFD61560DE56004E7F3A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E6EAFFD51560DE56004E7F3A /* UIKit.framework */; };
 		E6EAFFE61560DE56004E7F3A /* singingSiriCommands.m in Sources */ = {isa = PBXBuildFile; fileRef = E6EAFFE51560DE56004E7F3A /* singingSiriCommands.m */; };
@@ -64,6 +66,8 @@
 		E6EA003D1561B006004E7F3A /* MagicalMysteryTour.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MagicalMysteryTour.m; sourceTree = "<group>"; };
 		E6EA00411561B1C1004E7F3A /* PumpedUpKicks.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PumpedUpKicks.h; sourceTree = "<group>"; };
 		E6EA00421561B1C1004E7F3A /* PumpedUpKicks.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PumpedUpKicks.m; sourceTree = "<group>"; };
+		E6EA00461561B5F0004E7F3A /* Imagine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Imagine.h; sourceTree = "<group>"; };
+		E6EA00471561B5F0004E7F3A /* Imagine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Imagine.m; sourceTree = "<group>"; };
 		E6EAFFD01560DE56004E7F3A /* singingSiri.assistantExtension */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = singingSiri.assistantExtension; sourceTree = BUILT_PRODUCTS_DIR; };
 		E6EAFFD31560DE56004E7F3A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		E6EAFFD51560DE56004E7F3A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
@@ -200,6 +204,7 @@
 		E6EA003A1561AFCE004E7F3A /* Version .2 */ = {
 			isa = PBXGroup;
 			children = (
+				E6EA00451561B5E3004E7F3A /* Imagine */,
 				E6EA00401561B1AC004E7F3A /* Pumped Up Kicks */,
 				E6EA003B1561AFE2004E7F3A /* Magical Mystery Tour */,
 				E6EA00341561AE86004E7F3A /* American Idiot */,
@@ -223,6 +228,15 @@
 				E6EA00421561B1C1004E7F3A /* PumpedUpKicks.m */,
 			);
 			name = "Pumped Up Kicks";
+			sourceTree = "<group>";
+		};
+		E6EA00451561B5E3004E7F3A /* Imagine */ = {
+			isa = PBXGroup;
+			children = (
+				E6EA00461561B5F0004E7F3A /* Imagine.h */,
+				E6EA00471561B5F0004E7F3A /* Imagine.m */,
+			);
+			name = Imagine;
 			sourceTree = "<group>";
 		};
 		E6EAFFC41560DE56004E7F3A = {
@@ -375,6 +389,7 @@
 				E6EA00381561AED9004E7F3A /* AmericanIdiot.h in Headers */,
 				E6EA003E1561B006004E7F3A /* MagicalMysteryTour.h in Headers */,
 				E6EA00431561B1C1004E7F3A /* PumpedUpKicks.h in Headers */,
+				E6EA00481561B5F0004E7F3A /* Imagine.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -473,6 +488,7 @@
 				E6EA00391561AED9004E7F3A /* AmericanIdiot.m in Sources */,
 				E6EA003F1561B006004E7F3A /* MagicalMysteryTour.m in Sources */,
 				E6EA00441561B1C1004E7F3A /* PumpedUpKicks.m in Sources */,
+				E6EA00491561B5F0004E7F3A /* Imagine.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

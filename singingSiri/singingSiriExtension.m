@@ -22,6 +22,7 @@
 #import "AmericanIdiot.h"
 #import "MagicalMysteryTour.h"
 #import "PumpedUpKicks.h"
+#import "Imagine.h"
 
 @implementation singingSiriExtension
 
@@ -44,6 +45,7 @@
         [system registerCommand:[AmericanIdiot class]];
         [system registerCommand:[MagicalMysteryTour class]];
         [system registerCommand:[PumpedUpKicks class]];
+        [system registerCommand:[Imagine class]];
 
 	}
 	return self;
