@@ -20,6 +20,10 @@
 		E6EA00241561A28F004E7F3A /* Technologic.m in Sources */ = {isa = PBXBuildFile; fileRef = E6EA00221561A28F004E7F3A /* Technologic.m */; };
 		E6EA00281561A5A0004E7F3A /* HarderBetterFasterStronger.h in Headers */ = {isa = PBXBuildFile; fileRef = E6EA00261561A5A0004E7F3A /* HarderBetterFasterStronger.h */; };
 		E6EA00291561A5A0004E7F3A /* HarderBetterFasterStronger.m in Sources */ = {isa = PBXBuildFile; fileRef = E6EA00271561A5A0004E7F3A /* HarderBetterFasterStronger.m */; };
+		E6EA002D1561A762004E7F3A /* SexyAndIKnowIt.h in Headers */ = {isa = PBXBuildFile; fileRef = E6EA002B1561A762004E7F3A /* SexyAndIKnowIt.h */; };
+		E6EA002E1561A762004E7F3A /* SexyAndIKnowIt.m in Sources */ = {isa = PBXBuildFile; fileRef = E6EA002C1561A762004E7F3A /* SexyAndIKnowIt.m */; };
+		E6EA00321561AD5E004E7F3A /* PartyRock.h in Headers */ = {isa = PBXBuildFile; fileRef = E6EA00301561AD5E004E7F3A /* PartyRock.h */; };
+		E6EA00331561AD5E004E7F3A /* PartyRock.m in Sources */ = {isa = PBXBuildFile; fileRef = E6EA00311561AD5E004E7F3A /* PartyRock.m */; };
 		E6EAFFD41560DE56004E7F3A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E6EAFFD31560DE56004E7F3A /* Foundation.framework */; };
 		E6EAFFD61560DE56004E7F3A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E6EAFFD51560DE56004E7F3A /* UIKit.framework */; };
 		E6EAFFE61560DE56004E7F3A /* singingSiriCommands.m in Sources */ = {isa = PBXBuildFile; fileRef = E6EAFFE51560DE56004E7F3A /* singingSiriCommands.m */; };
@@ -44,6 +48,10 @@
 		E6EA00221561A28F004E7F3A /* Technologic.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Technologic.m; sourceTree = "<group>"; };
 		E6EA00261561A5A0004E7F3A /* HarderBetterFasterStronger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HarderBetterFasterStronger.h; sourceTree = "<group>"; };
 		E6EA00271561A5A0004E7F3A /* HarderBetterFasterStronger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HarderBetterFasterStronger.m; sourceTree = "<group>"; };
+		E6EA002B1561A762004E7F3A /* SexyAndIKnowIt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SexyAndIKnowIt.h; sourceTree = "<group>"; };
+		E6EA002C1561A762004E7F3A /* SexyAndIKnowIt.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SexyAndIKnowIt.m; sourceTree = "<group>"; };
+		E6EA00301561AD5E004E7F3A /* PartyRock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PartyRock.h; sourceTree = "<group>"; };
+		E6EA00311561AD5E004E7F3A /* PartyRock.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PartyRock.m; sourceTree = "<group>"; };
 		E6EAFFD01560DE56004E7F3A /* singingSiri.assistantExtension */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = singingSiri.assistantExtension; sourceTree = BUILT_PRODUCTS_DIR; };
 		E6EAFFD31560DE56004E7F3A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		E6EAFFD51560DE56004E7F3A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
@@ -131,6 +139,24 @@
 				E6EA00271561A5A0004E7F3A /* HarderBetterFasterStronger.m */,
 			);
 			name = "Harder, Better, Faster, Stronger";
+			sourceTree = "<group>";
+		};
+		E6EA002A1561A737004E7F3A /* Sexy and I know it */ = {
+			isa = PBXGroup;
+			children = (
+				E6EA002B1561A762004E7F3A /* SexyAndIKnowIt.h */,
+				E6EA002C1561A762004E7F3A /* SexyAndIKnowIt.m */,
+			);
+			name = "Sexy and I know it";
+			sourceTree = "<group>";
+		};
+		E6EA002F1561AD3E004E7F3A /* Party Rock Anthem */ = {
+			isa = PBXGroup;
+			children = (
+				E6EA00301561AD5E004E7F3A /* PartyRock.h */,
+				E6EA00311561AD5E004E7F3A /* PartyRock.m */,
+			);
+			name = "Party Rock Anthem";
 			sourceTree = "<group>";
 		};
 		E6EAFFC41560DE56004E7F3A = {
@@ -229,6 +255,8 @@
 		E6EAFFF51560E061004E7F3A /* Songs */ = {
 			isa = PBXGroup;
 			children = (
+				E6EA002F1561AD3E004E7F3A /* Party Rock Anthem */,
+				E6EA002A1561A737004E7F3A /* Sexy and I know it */,
 				E6EA00251561A57E004E7F3A /* Harder, Better, Faster, Stronger */,
 				E6EA001F1561A271004E7F3A /* Technologic */,
 				E6EA001315618FD6004E7F3A /* The Times they are a Changin */,
@@ -284,6 +312,8 @@
 				E6EA001715618FF8004E7F3A /* TimesAreAChangin.h in Headers */,
 				E6EA00231561A28F004E7F3A /* Technologic.h in Headers */,
 				E6EA00281561A5A0004E7F3A /* HarderBetterFasterStronger.h in Headers */,
+				E6EA002D1561A762004E7F3A /* SexyAndIKnowIt.h in Headers */,
+				E6EA00321561AD5E004E7F3A /* PartyRock.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -377,6 +407,8 @@
 				E6EA001815618FF8004E7F3A /* TimesAreAChangin.m in Sources */,
 				E6EA00241561A28F004E7F3A /* Technologic.m in Sources */,
 				E6EA00291561A5A0004E7F3A /* HarderBetterFasterStronger.m in Sources */,
+				E6EA002E1561A762004E7F3A /* SexyAndIKnowIt.m in Sources */,
+				E6EA00331561AD5E004E7F3A /* PartyRock.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
