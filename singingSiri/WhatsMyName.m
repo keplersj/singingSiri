@@ -31,7 +31,7 @@
         [ctx sendAddViewsUtteranceView:@"Now Singing: What's My Name? by Rihanna"];
         //album artwork
 		NSDictionary* snipProps = [NSDictionary dictionaryWithObjectsAndKeys:@"Album Art", @"text", @"http://adventoutpost.com/wp-content/uploads/rihanna-loud-album-cover3.jpg", @"link", nil];
-		[ctx sendAddViewsSnippet:@"SingingSiriSnippet" properties:snipProps];
+		[ctx sendAddViewsSnippet:@"singingSiriSnippet" properties:snipProps];
         //lyrics
         [ctx sendAddViewsUtteranceView:@"Ooh na na, what’s my name?"];
         [ctx sendAddViewsUtteranceView:@"Ooh na na, what’s my name?"];

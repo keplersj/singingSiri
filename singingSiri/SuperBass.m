@@ -31,7 +31,7 @@
         [ctx sendAddViewsUtteranceView:@"Now Singing: Super Bass by Nicki Minaj"];
         //album artwork
 		NSDictionary* snipProps = [NSDictionary dictionaryWithObjectsAndKeys:@"Album Art", @"text", @"http://andredeveaux.com/wp-content/uploads/2011/05/Super-Bass-Cover.jpg", @"link", nil];
-		[ctx sendAddViewsSnippet:@"SingingSiriSnippet" properties:snipProps];
+		[ctx sendAddViewsSnippet:@"singingSiriSnippet" properties:snipProps];
         //lyrics
         [ctx sendAddViewsUtteranceView:@"This one is for the boys with the boomin' system"];
         [ctx sendAddViewsUtteranceView:@"Top down, AC with the coolin' system"];
