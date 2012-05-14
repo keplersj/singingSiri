@@ -32,6 +32,10 @@
 		E6EA00441561B1C1004E7F3A /* PumpedUpKicks.m in Sources */ = {isa = PBXBuildFile; fileRef = E6EA00421561B1C1004E7F3A /* PumpedUpKicks.m */; };
 		E6EA00481561B5F0004E7F3A /* Imagine.h in Headers */ = {isa = PBXBuildFile; fileRef = E6EA00461561B5F0004E7F3A /* Imagine.h */; };
 		E6EA00491561B5F0004E7F3A /* Imagine.m in Sources */ = {isa = PBXBuildFile; fileRef = E6EA00471561B5F0004E7F3A /* Imagine.m */; };
+		E6EA004D1561B6B4004E7F3A /* BohemianRaphsody.h in Headers */ = {isa = PBXBuildFile; fileRef = E6EA004B1561B6B4004E7F3A /* BohemianRaphsody.h */; };
+		E6EA004E1561B6B4004E7F3A /* BohemianRaphsody.m in Sources */ = {isa = PBXBuildFile; fileRef = E6EA004C1561B6B4004E7F3A /* BohemianRaphsody.m */; };
+		E6EA00521561B731004E7F3A /* BuddyHolly.h in Headers */ = {isa = PBXBuildFile; fileRef = E6EA00501561B731004E7F3A /* BuddyHolly.h */; };
+		E6EA00531561B731004E7F3A /* BuddyHolly.m in Sources */ = {isa = PBXBuildFile; fileRef = E6EA00511561B731004E7F3A /* BuddyHolly.m */; };
 		E6EAFFD41560DE56004E7F3A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E6EAFFD31560DE56004E7F3A /* Foundation.framework */; };
 		E6EAFFD61560DE56004E7F3A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E6EAFFD51560DE56004E7F3A /* UIKit.framework */; };
 		E6EAFFE61560DE56004E7F3A /* singingSiriCommands.m in Sources */ = {isa = PBXBuildFile; fileRef = E6EAFFE51560DE56004E7F3A /* singingSiriCommands.m */; };
@@ -68,6 +72,10 @@
 		E6EA00421561B1C1004E7F3A /* PumpedUpKicks.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PumpedUpKicks.m; sourceTree = "<group>"; };
 		E6EA00461561B5F0004E7F3A /* Imagine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Imagine.h; sourceTree = "<group>"; };
 		E6EA00471561B5F0004E7F3A /* Imagine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Imagine.m; sourceTree = "<group>"; };
+		E6EA004B1561B6B4004E7F3A /* BohemianRaphsody.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BohemianRaphsody.h; sourceTree = "<group>"; };
+		E6EA004C1561B6B4004E7F3A /* BohemianRaphsody.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BohemianRaphsody.m; sourceTree = "<group>"; };
+		E6EA00501561B731004E7F3A /* BuddyHolly.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BuddyHolly.h; sourceTree = "<group>"; };
+		E6EA00511561B731004E7F3A /* BuddyHolly.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BuddyHolly.m; sourceTree = "<group>"; };
 		E6EAFFD01560DE56004E7F3A /* singingSiri.assistantExtension */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = singingSiri.assistantExtension; sourceTree = BUILT_PRODUCTS_DIR; };
 		E6EAFFD31560DE56004E7F3A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		E6EAFFD51560DE56004E7F3A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
@@ -204,6 +212,8 @@
 		E6EA003A1561AFCE004E7F3A /* Version .2 */ = {
 			isa = PBXGroup;
 			children = (
+				E6EA004F1561B71E004E7F3A /* Buddy Holly */,
+				E6EA004A1561B68F004E7F3A /* Bohemian Raphsody */,
 				E6EA00451561B5E3004E7F3A /* Imagine */,
 				E6EA00401561B1AC004E7F3A /* Pumped Up Kicks */,
 				E6EA003B1561AFE2004E7F3A /* Magical Mystery Tour */,
@@ -237,6 +247,24 @@
 				E6EA00471561B5F0004E7F3A /* Imagine.m */,
 			);
 			name = Imagine;
+			sourceTree = "<group>";
+		};
+		E6EA004A1561B68F004E7F3A /* Bohemian Raphsody */ = {
+			isa = PBXGroup;
+			children = (
+				E6EA004B1561B6B4004E7F3A /* BohemianRaphsody.h */,
+				E6EA004C1561B6B4004E7F3A /* BohemianRaphsody.m */,
+			);
+			name = "Bohemian Raphsody";
+			sourceTree = "<group>";
+		};
+		E6EA004F1561B71E004E7F3A /* Buddy Holly */ = {
+			isa = PBXGroup;
+			children = (
+				E6EA00501561B731004E7F3A /* BuddyHolly.h */,
+				E6EA00511561B731004E7F3A /* BuddyHolly.m */,
+			);
+			name = "Buddy Holly";
 			sourceTree = "<group>";
 		};
 		E6EAFFC41560DE56004E7F3A = {
@@ -390,6 +418,8 @@
 				E6EA003E1561B006004E7F3A /* MagicalMysteryTour.h in Headers */,
 				E6EA00431561B1C1004E7F3A /* PumpedUpKicks.h in Headers */,
 				E6EA00481561B5F0004E7F3A /* Imagine.h in Headers */,
+				E6EA004D1561B6B4004E7F3A /* BohemianRaphsody.h in Headers */,
+				E6EA00521561B731004E7F3A /* BuddyHolly.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -489,6 +519,8 @@
 				E6EA003F1561B006004E7F3A /* MagicalMysteryTour.m in Sources */,
 				E6EA00441561B1C1004E7F3A /* PumpedUpKicks.m in Sources */,
 				E6EA00491561B5F0004E7F3A /* Imagine.m in Sources */,
+				E6EA004E1561B6B4004E7F3A /* BohemianRaphsody.m in Sources */,
+				E6EA00531561B731004E7F3A /* BuddyHolly.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

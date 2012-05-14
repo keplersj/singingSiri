@@ -23,6 +23,8 @@
 #import "MagicalMysteryTour.h"
 #import "PumpedUpKicks.h"
 #import "Imagine.h"
+#import "BohemianRaphsody.h"
+#import "BuddyHolly.h"
 
 @implementation singingSiriExtension
 
@@ -46,6 +48,8 @@
         [system registerCommand:[MagicalMysteryTour class]];
         [system registerCommand:[PumpedUpKicks class]];
         [system registerCommand:[Imagine class]];
+        [system registerCommand:[BohemianRaphsody class]];
+        [system registerCommand:[BuddyHolly class]];
 
 	}
 	return self;
