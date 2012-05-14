@@ -25,6 +25,10 @@
 #import "Imagine.h"
 #import "BohemianRaphsody.h"
 #import "BuddyHolly.h"
+#import "RollingInTheDeep.h"
+#import "Grenade.h"
+#import "Firework.h"
+#import "MovesLikeJagger.h"
 
 @implementation singingSiriExtension
 
@@ -50,6 +54,10 @@
         [system registerCommand:[Imagine class]];
         [system registerCommand:[BohemianRaphsody class]];
         [system registerCommand:[BuddyHolly class]];
+        [system registerCommand:[RollingInTheDeep class]];
+        [system registerCommand:[Grenade class]];
+        [system registerCommand:[Firework class]];
+        [system registerCommand:[MovesLikeJagger class]];
 
 	}
 	return self;

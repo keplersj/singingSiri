@@ -36,6 +36,14 @@
 		E6EA004E1561B6B4004E7F3A /* BohemianRaphsody.m in Sources */ = {isa = PBXBuildFile; fileRef = E6EA004C1561B6B4004E7F3A /* BohemianRaphsody.m */; };
 		E6EA00521561B731004E7F3A /* BuddyHolly.h in Headers */ = {isa = PBXBuildFile; fileRef = E6EA00501561B731004E7F3A /* BuddyHolly.h */; };
 		E6EA00531561B731004E7F3A /* BuddyHolly.m in Sources */ = {isa = PBXBuildFile; fileRef = E6EA00511561B731004E7F3A /* BuddyHolly.m */; };
+		E6EA00571561B8C8004E7F3A /* RollingInTheDeep.h in Headers */ = {isa = PBXBuildFile; fileRef = E6EA00551561B8C8004E7F3A /* RollingInTheDeep.h */; };
+		E6EA00581561B8C8004E7F3A /* RollingInTheDeep.m in Sources */ = {isa = PBXBuildFile; fileRef = E6EA00561561B8C8004E7F3A /* RollingInTheDeep.m */; };
+		E6EA00631561B98E004E7F3A /* Grenade.h in Headers */ = {isa = PBXBuildFile; fileRef = E6EA00611561B98E004E7F3A /* Grenade.h */; };
+		E6EA00641561B98E004E7F3A /* Grenade.m in Sources */ = {isa = PBXBuildFile; fileRef = E6EA00621561B98E004E7F3A /* Grenade.m */; };
+		E6EA00671561B9CE004E7F3A /* Firework.h in Headers */ = {isa = PBXBuildFile; fileRef = E6EA00651561B9CE004E7F3A /* Firework.h */; };
+		E6EA00681561B9CE004E7F3A /* Firework.m in Sources */ = {isa = PBXBuildFile; fileRef = E6EA00661561B9CE004E7F3A /* Firework.m */; };
+		E6EA006B1561BA83004E7F3A /* MovesLikeJagger.h in Headers */ = {isa = PBXBuildFile; fileRef = E6EA00691561BA83004E7F3A /* MovesLikeJagger.h */; };
+		E6EA006C1561BA83004E7F3A /* MovesLikeJagger.m in Sources */ = {isa = PBXBuildFile; fileRef = E6EA006A1561BA83004E7F3A /* MovesLikeJagger.m */; };
 		E6EAFFD41560DE56004E7F3A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E6EAFFD31560DE56004E7F3A /* Foundation.framework */; };
 		E6EAFFD61560DE56004E7F3A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E6EAFFD51560DE56004E7F3A /* UIKit.framework */; };
 		E6EAFFE61560DE56004E7F3A /* singingSiriCommands.m in Sources */ = {isa = PBXBuildFile; fileRef = E6EAFFE51560DE56004E7F3A /* singingSiriCommands.m */; };
@@ -76,6 +84,14 @@
 		E6EA004C1561B6B4004E7F3A /* BohemianRaphsody.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BohemianRaphsody.m; sourceTree = "<group>"; };
 		E6EA00501561B731004E7F3A /* BuddyHolly.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BuddyHolly.h; sourceTree = "<group>"; };
 		E6EA00511561B731004E7F3A /* BuddyHolly.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BuddyHolly.m; sourceTree = "<group>"; };
+		E6EA00551561B8C8004E7F3A /* RollingInTheDeep.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RollingInTheDeep.h; sourceTree = "<group>"; };
+		E6EA00561561B8C8004E7F3A /* RollingInTheDeep.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RollingInTheDeep.m; sourceTree = "<group>"; };
+		E6EA00611561B98E004E7F3A /* Grenade.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Grenade.h; sourceTree = "<group>"; };
+		E6EA00621561B98E004E7F3A /* Grenade.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Grenade.m; sourceTree = "<group>"; };
+		E6EA00651561B9CE004E7F3A /* Firework.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Firework.h; sourceTree = "<group>"; };
+		E6EA00661561B9CE004E7F3A /* Firework.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Firework.m; sourceTree = "<group>"; };
+		E6EA00691561BA83004E7F3A /* MovesLikeJagger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MovesLikeJagger.h; sourceTree = "<group>"; };
+		E6EA006A1561BA83004E7F3A /* MovesLikeJagger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MovesLikeJagger.m; sourceTree = "<group>"; };
 		E6EAFFD01560DE56004E7F3A /* singingSiri.assistantExtension */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = singingSiri.assistantExtension; sourceTree = BUILT_PRODUCTS_DIR; };
 		E6EAFFD31560DE56004E7F3A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		E6EAFFD51560DE56004E7F3A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
@@ -192,7 +208,7 @@
 			name = "American Idiot";
 			sourceTree = "<group>";
 		};
-		E6EA00351561AE8B004E7F3A /* Version .1 */ = {
+		E6EA00351561AE8B004E7F3A /* Version .0 */ = {
 			isa = PBXGroup;
 			children = (
 				E6EA002F1561AD3E004E7F3A /* Party Rock Anthem */,
@@ -206,20 +222,24 @@
 				E6EAFFFC15618446004E7F3A /* Troll */,
 				E6EAFFF71560E074004E7F3A /* Viva la Vida */,
 			);
-			name = "Version .1";
+			name = "Version .0";
 			sourceTree = "<group>";
 		};
-		E6EA003A1561AFCE004E7F3A /* Version .2 */ = {
+		E6EA003A1561AFCE004E7F3A /* Version .1 */ = {
 			isa = PBXGroup;
 			children = (
+				E6EA005F1561B96F004E7F3A /* Moves Like Jagger */,
+				E6EA005E1561B961004E7F3A /* Firework */,
+				E6EA00591561B94E004E7F3A /* Grenade */,
+				E6EA00541561B8B8004E7F3A /* Rolling in the Deep */,
 				E6EA004F1561B71E004E7F3A /* Buddy Holly */,
 				E6EA004A1561B68F004E7F3A /* Bohemian Raphsody */,
 				E6EA00451561B5E3004E7F3A /* Imagine */,
 				E6EA00401561B1AC004E7F3A /* Pumped Up Kicks */,
-				E6EA003B1561AFE2004E7F3A /* Magical Mystery Tour */,
 				E6EA00341561AE86004E7F3A /* American Idiot */,
+				E6EA003B1561AFE2004E7F3A /* Magical Mystery Tour */,
 			);
-			name = "Version .2";
+			name = "Version .1";
 			sourceTree = "<group>";
 		};
 		E6EA003B1561AFE2004E7F3A /* Magical Mystery Tour */ = {
@@ -265,6 +285,49 @@
 				E6EA00511561B731004E7F3A /* BuddyHolly.m */,
 			);
 			name = "Buddy Holly";
+			sourceTree = "<group>";
+		};
+		E6EA00541561B8B8004E7F3A /* Rolling in the Deep */ = {
+			isa = PBXGroup;
+			children = (
+				E6EA00551561B8C8004E7F3A /* RollingInTheDeep.h */,
+				E6EA00561561B8C8004E7F3A /* RollingInTheDeep.m */,
+			);
+			name = "Rolling in the Deep";
+			sourceTree = "<group>";
+		};
+		E6EA00591561B94E004E7F3A /* Grenade */ = {
+			isa = PBXGroup;
+			children = (
+				E6EA00611561B98E004E7F3A /* Grenade.h */,
+				E6EA00621561B98E004E7F3A /* Grenade.m */,
+			);
+			name = Grenade;
+			sourceTree = "<group>";
+		};
+		E6EA005E1561B961004E7F3A /* Firework */ = {
+			isa = PBXGroup;
+			children = (
+				E6EA00651561B9CE004E7F3A /* Firework.h */,
+				E6EA00661561B9CE004E7F3A /* Firework.m */,
+			);
+			name = Firework;
+			sourceTree = "<group>";
+		};
+		E6EA005F1561B96F004E7F3A /* Moves Like Jagger */ = {
+			isa = PBXGroup;
+			children = (
+				E6EA00691561BA83004E7F3A /* MovesLikeJagger.h */,
+				E6EA006A1561BA83004E7F3A /* MovesLikeJagger.m */,
+			);
+			name = "Moves Like Jagger";
+			sourceTree = "<group>";
+		};
+		E6EA00601561B97A004E7F3A /* Version .2 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "Version .2";
 			sourceTree = "<group>";
 		};
 		E6EAFFC41560DE56004E7F3A = {
@@ -363,8 +426,9 @@
 		E6EAFFF51560E061004E7F3A /* Songs */ = {
 			isa = PBXGroup;
 			children = (
-				E6EA003A1561AFCE004E7F3A /* Version .2 */,
-				E6EA00351561AE8B004E7F3A /* Version .1 */,
+				E6EA00601561B97A004E7F3A /* Version .2 */,
+				E6EA003A1561AFCE004E7F3A /* Version .1 */,
+				E6EA00351561AE8B004E7F3A /* Version .0 */,
 				E6EAFFF61560E069004E7F3A /* Basic */,
 			);
 			name = Songs;
@@ -420,6 +484,10 @@
 				E6EA00481561B5F0004E7F3A /* Imagine.h in Headers */,
 				E6EA004D1561B6B4004E7F3A /* BohemianRaphsody.h in Headers */,
 				E6EA00521561B731004E7F3A /* BuddyHolly.h in Headers */,
+				E6EA00571561B8C8004E7F3A /* RollingInTheDeep.h in Headers */,
+				E6EA00631561B98E004E7F3A /* Grenade.h in Headers */,
+				E6EA00671561B9CE004E7F3A /* Firework.h in Headers */,
+				E6EA006B1561BA83004E7F3A /* MovesLikeJagger.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -521,6 +589,10 @@
 				E6EA00491561B5F0004E7F3A /* Imagine.m in Sources */,
 				E6EA004E1561B6B4004E7F3A /* BohemianRaphsody.m in Sources */,
 				E6EA00531561B731004E7F3A /* BuddyHolly.m in Sources */,
+				E6EA00581561B8C8004E7F3A /* RollingInTheDeep.m in Sources */,
+				E6EA00641561B98E004E7F3A /* Grenade.m in Sources */,
+				E6EA00681561B9CE004E7F3A /* Firework.m in Sources */,
+				E6EA006C1561BA83004E7F3A /* MovesLikeJagger.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
