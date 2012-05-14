@@ -1,0 +1,448 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E6EA000015618454004E7F3A /* Troll.m in Sources */ = {isa = PBXBuildFile; fileRef = E6EAFFFE15618454004E7F3A /* Troll.m */; };
+		E6EA0004156185D0004E7F3A /* Portal.h in Headers */ = {isa = PBXBuildFile; fileRef = E6EA0002156185D0004E7F3A /* Portal.h */; };
+		E6EA0005156185D0004E7F3A /* Portal.m in Sources */ = {isa = PBXBuildFile; fileRef = E6EA0003156185D0004E7F3A /* Portal.m */; };
+		E6EA0009156186B0004E7F3A /* Portal2.h in Headers */ = {isa = PBXBuildFile; fileRef = E6EA0007156186B0004E7F3A /* Portal2.h */; };
+		E6EA000A156186B0004E7F3A /* Portal2.m in Sources */ = {isa = PBXBuildFile; fileRef = E6EA0008156186B0004E7F3A /* Portal2.m */; };
+		E6EA000E15618BD4004E7F3A /* Friday.h in Headers */ = {isa = PBXBuildFile; fileRef = E6EA000C15618BD4004E7F3A /* Friday.h */; };
+		E6EA000F15618BD4004E7F3A /* Friday.m in Sources */ = {isa = PBXBuildFile; fileRef = E6EA000D15618BD4004E7F3A /* Friday.m */; };
+		E6EAFFD41560DE56004E7F3A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E6EAFFD31560DE56004E7F3A /* Foundation.framework */; };
+		E6EAFFD61560DE56004E7F3A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E6EAFFD51560DE56004E7F3A /* UIKit.framework */; };
+		E6EAFFE61560DE56004E7F3A /* singingSiriCommands.m in Sources */ = {isa = PBXBuildFile; fileRef = E6EAFFE51560DE56004E7F3A /* singingSiriCommands.m */; };
+		E6EAFFE91560DE56004E7F3A /* singingSiriSnippet.m in Sources */ = {isa = PBXBuildFile; fileRef = E6EAFFE81560DE56004E7F3A /* singingSiriSnippet.m */; };
+		E6EAFFEC1560DE56004E7F3A /* singingSiriExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = E6EAFFEB1560DE56004E7F3A /* singingSiriExtension.m */; };
+		E6EAFFF41560DEBE004E7F3A /* singingSiriNib.xib in Resources */ = {isa = PBXBuildFile; fileRef = E6EAFFED1560DE56004E7F3A /* singingSiriNib.xib */; };
+		E6EAFFFA15617D51004E7F3A /* VivaLaVidaCommand.h in Headers */ = {isa = PBXBuildFile; fileRef = E6EAFFF815617D51004E7F3A /* VivaLaVidaCommand.h */; };
+		E6EAFFFB15617D51004E7F3A /* VivaLaVidaCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = E6EAFFF915617D51004E7F3A /* VivaLaVidaCommand.m */; };
+		E6EAFFFF15618454004E7F3A /* Troll.h in Headers */ = {isa = PBXBuildFile; fileRef = E6EAFFFD15618454004E7F3A /* Troll.h */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		E6EA0002156185D0004E7F3A /* Portal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Portal.h; sourceTree = "<group>"; };
+		E6EA0003156185D0004E7F3A /* Portal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Portal.m; sourceTree = "<group>"; };
+		E6EA0007156186B0004E7F3A /* Portal2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Portal2.h; sourceTree = "<group>"; };
+		E6EA0008156186B0004E7F3A /* Portal2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Portal2.m; sourceTree = "<group>"; };
+		E6EA000C15618BD4004E7F3A /* Friday.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Friday.h; sourceTree = "<group>"; };
+		E6EA000D15618BD4004E7F3A /* Friday.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Friday.m; sourceTree = "<group>"; };
+		E6EAFFD01560DE56004E7F3A /* singingSiri.assistantExtension */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = singingSiri.assistantExtension; sourceTree = BUILT_PRODUCTS_DIR; };
+		E6EAFFD31560DE56004E7F3A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		E6EAFFD51560DE56004E7F3A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		E6EAFFDA1560DE56004E7F3A /* control.txt */ = {isa = PBXFileReference; lastKnownFileType = text; name = control.txt; path = Package/DEBIAN/control.txt; sourceTree = "<group>"; };
+		E6EAFFDB1560DE56004E7F3A /* control */ = {isa = PBXFileReference; lastKnownFileType = text; name = control; path = Package/DEBIAN/control; sourceTree = "<group>"; };
+		E6EAFFDD1560DE56004E7F3A /* PackageVersion.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = PackageVersion.plist; sourceTree = "<group>"; };
+		E6EAFFDE1560DE56004E7F3A /* singingSiri-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "singingSiri-Info.plist"; sourceTree = "<group>"; };
+		E6EAFFE21560DE56004E7F3A /* 0xdeadfa11 */ = {isa = PBXFileReference; lastKnownFileType = text; name = 0xdeadfa11; path = Package/Library/AssistantExtensions/singingSiri.assistantExtension/0xdeadfa11; sourceTree = "<group>"; };
+		E6EAFFE31560DE56004E7F3A /* singingSiri-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "singingSiri-Prefix.pch"; sourceTree = "<group>"; };
+		E6EAFFE41560DE56004E7F3A /* singingSiriCommands.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = singingSiriCommands.h; sourceTree = "<group>"; };
+		E6EAFFE51560DE56004E7F3A /* singingSiriCommands.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = singingSiriCommands.m; sourceTree = "<group>"; };
+		E6EAFFE71560DE56004E7F3A /* singingSiriSnippet.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = singingSiriSnippet.h; sourceTree = "<group>"; };
+		E6EAFFE81560DE56004E7F3A /* singingSiriSnippet.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = singingSiriSnippet.m; sourceTree = "<group>"; };
+		E6EAFFEA1560DE56004E7F3A /* singingSiriExtension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = singingSiriExtension.h; sourceTree = "<group>"; };
+		E6EAFFEB1560DE56004E7F3A /* singingSiriExtension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = singingSiriExtension.m; sourceTree = "<group>"; };
+		E6EAFFED1560DE56004E7F3A /* singingSiriNib.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = singingSiriNib.xib; sourceTree = "<group>"; };
+		E6EAFFF815617D51004E7F3A /* VivaLaVidaCommand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VivaLaVidaCommand.h; sourceTree = "<group>"; };
+		E6EAFFF915617D51004E7F3A /* VivaLaVidaCommand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VivaLaVidaCommand.m; sourceTree = "<group>"; };
+		E6EAFFFD15618454004E7F3A /* Troll.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Troll.h; sourceTree = "<group>"; };
+		E6EAFFFE15618454004E7F3A /* Troll.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Troll.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E6EAFFCC1560DE56004E7F3A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E6EAFFD41560DE56004E7F3A /* Foundation.framework in Frameworks */,
+				E6EAFFD61560DE56004E7F3A /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E6EA0001156185C4004E7F3A /* Portal */ = {
+			isa = PBXGroup;
+			children = (
+				E6EA0002156185D0004E7F3A /* Portal.h */,
+				E6EA0003156185D0004E7F3A /* Portal.m */,
+			);
+			name = Portal;
+			sourceTree = "<group>";
+		};
+		E6EA000615618687004E7F3A /* Portal 2 */ = {
+			isa = PBXGroup;
+			children = (
+				E6EA0007156186B0004E7F3A /* Portal2.h */,
+				E6EA0008156186B0004E7F3A /* Portal2.m */,
+			);
+			name = "Portal 2";
+			sourceTree = "<group>";
+		};
+		E6EA000B1561883B004E7F3A /* Friday */ = {
+			isa = PBXGroup;
+			children = (
+				E6EA000C15618BD4004E7F3A /* Friday.h */,
+				E6EA000D15618BD4004E7F3A /* Friday.m */,
+			);
+			name = Friday;
+			sourceTree = "<group>";
+		};
+		E6EAFFC41560DE56004E7F3A = {
+			isa = PBXGroup;
+			children = (
+				E6EAFFD71560DE56004E7F3A /* singingSiri */,
+				E6EAFFD21560DE56004E7F3A /* Frameworks */,
+				E6EAFFD11560DE56004E7F3A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E6EAFFD11560DE56004E7F3A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E6EAFFD01560DE56004E7F3A /* singingSiri.assistantExtension */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E6EAFFD21560DE56004E7F3A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E6EAFFD31560DE56004E7F3A /* Foundation.framework */,
+				E6EAFFD51560DE56004E7F3A /* UIKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E6EAFFD71560DE56004E7F3A /* singingSiri */ = {
+			isa = PBXGroup;
+			children = (
+				E6EAFFF51560E061004E7F3A /* Songs */,
+				E6EAFFE71560DE56004E7F3A /* singingSiriSnippet.h */,
+				E6EAFFE81560DE56004E7F3A /* singingSiriSnippet.m */,
+				E6EAFFEA1560DE56004E7F3A /* singingSiriExtension.h */,
+				E6EAFFEB1560DE56004E7F3A /* singingSiriExtension.m */,
+				E6EAFFED1560DE56004E7F3A /* singingSiriNib.xib */,
+				E6EAFFD81560DE56004E7F3A /* Package */,
+				E6EAFFDC1560DE56004E7F3A /* Supporting Files */,
+			);
+			path = singingSiri;
+			sourceTree = "<group>";
+		};
+		E6EAFFD81560DE56004E7F3A /* Package */ = {
+			isa = PBXGroup;
+			children = (
+				E6EAFFD91560DE56004E7F3A /* DEBIAN */,
+				E6EAFFDF1560DE56004E7F3A /* Library */,
+			);
+			name = Package;
+			sourceTree = "<group>";
+		};
+		E6EAFFD91560DE56004E7F3A /* DEBIAN */ = {
+			isa = PBXGroup;
+			children = (
+				E6EAFFDA1560DE56004E7F3A /* control.txt */,
+				E6EAFFDB1560DE56004E7F3A /* control */,
+			);
+			name = DEBIAN;
+			sourceTree = "<group>";
+		};
+		E6EAFFDC1560DE56004E7F3A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E6EAFFDD1560DE56004E7F3A /* PackageVersion.plist */,
+				E6EAFFDE1560DE56004E7F3A /* singingSiri-Info.plist */,
+				E6EAFFE31560DE56004E7F3A /* singingSiri-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E6EAFFDF1560DE56004E7F3A /* Library */ = {
+			isa = PBXGroup;
+			children = (
+				E6EAFFE01560DE56004E7F3A /* AssistantExtensions */,
+			);
+			name = Library;
+			sourceTree = "<group>";
+		};
+		E6EAFFE01560DE56004E7F3A /* AssistantExtensions */ = {
+			isa = PBXGroup;
+			children = (
+				E6EAFFE11560DE56004E7F3A /* ___PACKAGENAME___.assistantExtension */,
+			);
+			name = AssistantExtensions;
+			sourceTree = "<group>";
+		};
+		E6EAFFE11560DE56004E7F3A /* ___PACKAGENAME___.assistantExtension */ = {
+			isa = PBXGroup;
+			children = (
+				E6EAFFE21560DE56004E7F3A /* 0xdeadfa11 */,
+			);
+			name = "___PACKAGENAME___.assistantExtension";
+			sourceTree = "<group>";
+		};
+		E6EAFFF51560E061004E7F3A /* Songs */ = {
+			isa = PBXGroup;
+			children = (
+				E6EA000B1561883B004E7F3A /* Friday */,
+				E6EA000615618687004E7F3A /* Portal 2 */,
+				E6EA0001156185C4004E7F3A /* Portal */,
+				E6EAFFFC15618446004E7F3A /* Troll */,
+				E6EAFFF71560E074004E7F3A /* Viva la Vida */,
+				E6EAFFF61560E069004E7F3A /* Basic */,
+			);
+			name = Songs;
+			sourceTree = "<group>";
+		};
+		E6EAFFF61560E069004E7F3A /* Basic */ = {
+			isa = PBXGroup;
+			children = (
+				E6EAFFE41560DE56004E7F3A /* singingSiriCommands.h */,
+				E6EAFFE51560DE56004E7F3A /* singingSiriCommands.m */,
+			);
+			name = Basic;
+			sourceTree = "<group>";
+		};
+		E6EAFFF71560E074004E7F3A /* Viva la Vida */ = {
+			isa = PBXGroup;
+			children = (
+				E6EAFFF815617D51004E7F3A /* VivaLaVidaCommand.h */,
+				E6EAFFF915617D51004E7F3A /* VivaLaVidaCommand.m */,
+			);
+			name = "Viva la Vida";
+			sourceTree = "<group>";
+		};
+		E6EAFFFC15618446004E7F3A /* Troll */ = {
+			isa = PBXGroup;
+			children = (
+				E6EAFFFD15618454004E7F3A /* Troll.h */,
+				E6EAFFFE15618454004E7F3A /* Troll.m */,
+			);
+			name = Troll;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		E6EAFFCD1560DE56004E7F3A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E6EAFFFA15617D51004E7F3A /* VivaLaVidaCommand.h in Headers */,
+				E6EAFFFF15618454004E7F3A /* Troll.h in Headers */,
+				E6EA0004156185D0004E7F3A /* Portal.h in Headers */,
+				E6EA0009156186B0004E7F3A /* Portal2.h in Headers */,
+				E6EA000E15618BD4004E7F3A /* Friday.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		E6EAFFCF1560DE56004E7F3A /* singingSiri */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E6EAFFF01560DE56004E7F3A /* Build configuration list for PBXNativeTarget "singingSiri" */;
+			buildPhases = (
+				E6EAFFF31560DEB3004E7F3A /* Resources */,
+				E6EAFFCB1560DE56004E7F3A /* Sources */,
+				E6EAFFCC1560DE56004E7F3A /* Frameworks */,
+				E6EAFFCD1560DE56004E7F3A /* Headers */,
+				E6EAFFCE1560DE56004E7F3A /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = singingSiri;
+			productName = singingSiri;
+			productReference = E6EAFFD01560DE56004E7F3A /* singingSiri.assistantExtension */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E6EAFFC61560DE56004E7F3A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = E6EAFFC91560DE56004E7F3A /* Build configuration list for PBXProject "singingSiri" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = E6EAFFC41560DE56004E7F3A;
+			productRefGroup = E6EAFFD11560DE56004E7F3A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E6EAFFCF1560DE56004E7F3A /* singingSiri */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E6EAFFF31560DEB3004E7F3A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E6EAFFF41560DEBE004E7F3A /* singingSiriNib.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		E6EAFFCE1560DE56004E7F3A /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/opt/iOSOpenDev/bin/iosod --xcbp";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E6EAFFCB1560DE56004E7F3A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E6EAFFE61560DE56004E7F3A /* singingSiriCommands.m in Sources */,
+				E6EAFFE91560DE56004E7F3A /* singingSiriSnippet.m in Sources */,
+				E6EAFFEC1560DE56004E7F3A /* singingSiriExtension.m in Sources */,
+				E6EAFFFB15617D51004E7F3A /* VivaLaVidaCommand.m in Sources */,
+				E6EA000015618454004E7F3A /* Troll.m in Sources */,
+				E6EA0005156185D0004E7F3A /* Portal.m in Sources */,
+				E6EA000A156186B0004E7F3A /* Portal2.m in Sources */,
+				E6EA000F15618BD4004E7F3A /* Friday.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		E6EAFFEE1560DE56004E7F3A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = YES;
+				EXCLUDED_RECURSIVE_SEARCH_PATH_SUBDIRECTORIES = "*.nib *.lproj *.gch (*) .DS_Store CVS .svn .git .hg *.xcodeproj *.xcode *.pbproj *.pbxproj";
+				FRAMEWORK_SEARCH_PATHS = "$(iOSOpenDevPath)/frameworks/**";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "$(iOSOpenDevPath)/include/**";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				LIBRARY_SEARCH_PATHS = "$(iOSOpenDevPath)/lib/**";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				iOSOpenDevPath = /opt/iOSOpenDev;
+			};
+			name = Release;
+		};
+		E6EAFFEF1560DE56004E7F3A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = NO;
+				EXCLUDED_RECURSIVE_SEARCH_PATH_SUBDIRECTORIES = "*.nib *.lproj *.gch (*) .DS_Store CVS .svn .git .hg *.xcodeproj *.xcode *.pbproj *.pbxproj";
+				FRAMEWORK_SEARCH_PATHS = "$(iOSOpenDevPath)/frameworks/**";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "$(iOSOpenDevPath)/include/**";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				LIBRARY_SEARCH_PATHS = "$(iOSOpenDevPath)/lib/**";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = NO;
+				iOSOpenDevPath = /opt/iOSOpenDev;
+			};
+			name = Debug;
+		};
+		E6EAFFF11560DE56004E7F3A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "singingSiri/singingSiri-Prefix.pch";
+				INFOPLIST_FILE = "singingSiri/singingSiri-Info.plist";
+				INSTALL_PATH = /Library/AssistantExtensions;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = assistantExtension;
+				iOSOpenDevCopyOnBuild = NO;
+				iOSOpenDevDevice = "Keplers-iPhone.local";
+				iOSOpenDevInstallOnAnyBuild = YES;
+				iOSOpenDevInstallOnProfiling = YES;
+				iOSOpenDevRespringOnInstall = YES;
+				iOSOpenDevUsePackageVersionPList = YES;
+			};
+			name = Release;
+		};
+		E6EAFFF21560DE56004E7F3A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "singingSiri/singingSiri-Prefix.pch";
+				INFOPLIST_FILE = "singingSiri/singingSiri-Info.plist";
+				INSTALL_PATH = /Library/AssistantExtensions;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = assistantExtension;
+				iOSOpenDevCopyOnBuild = NO;
+				iOSOpenDevDevice = "Keplers-iPhone.local";
+				iOSOpenDevInstallOnAnyBuild = YES;
+				iOSOpenDevInstallOnProfiling = YES;
+				iOSOpenDevRespringOnInstall = YES;
+				iOSOpenDevUsePackageVersionPList = YES;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E6EAFFC91560DE56004E7F3A /* Build configuration list for PBXProject "singingSiri" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E6EAFFEE1560DE56004E7F3A /* Release */,
+				E6EAFFEF1560DE56004E7F3A /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E6EAFFF01560DE56004E7F3A /* Build configuration list for PBXNativeTarget "singingSiri" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E6EAFFF11560DE56004E7F3A /* Release */,
+				E6EAFFF21560DE56004E7F3A /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E6EAFFC61560DE56004E7F3A /* Project object */;
+}

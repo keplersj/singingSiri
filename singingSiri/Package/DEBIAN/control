@@ -1,0 +1,17 @@
+Package: com.k2b6s9j.singingSiri
+Name: singingSiri
+Version: 1.0-1
+Description: 
+Section: Addons (AssistantExtensions)
+Depends: firmware (>= 5.0), gsc.assistant, mobilesubstrate, me.k3a.ae
+Conflicts: 
+Replaces: 
+Priority: optional
+Architecture: iphoneos-arm
+Author: Kepler Sticka-Jones
+dev: 
+Homepage: 
+Depiction: 
+Maintainer: 
+Icon: 
+
