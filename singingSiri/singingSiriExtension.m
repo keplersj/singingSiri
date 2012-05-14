@@ -19,6 +19,7 @@
 #import "HarderBetterFasterStronger.h"
 #import "SexyAndIKnowIt.h"
 #import "PartyRock.h"
+#import "AmericanIdiot.h"
 
 @implementation singingSiriExtension
 
@@ -38,6 +39,7 @@
         [system registerCommand:[HarderBetterFasterStronger class]];
         [system registerCommand:[SexyAndIKnowIt class]];
         [system registerCommand:[PartyRock class]];
+        [system registerCommand:[AmericanIdiot class]];
 	}
 	return self;
 }
