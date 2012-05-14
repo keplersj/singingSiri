@@ -33,7 +33,7 @@ if ([tokens count] >= 2 && [[tokens objectAtIndex:0] isEqualToString:@"sing"] &&
     [ctx sendAddViewsUtteranceView:@"Now Singing: The Times They Are A-Changin' by Bob Dylan"];
     //album artwork
     NSDictionary* snipProps = [NSDictionary dictionaryWithObjectsAndKeys:@"Album Art", @"text", @"http://2.bp.blogspot.com/-cVDhkPzZTL0/TXzsd6K0CqI/AAAAAAAAA4s/2NQTwjMM28Q/s1600/Bob%2BDylan_The%2Btimes%2Bthey%2Bare%2Ba%2Bchangin.jpg", @"link", nil];
-    [ctx sendAddViewsSnippet:@"SingingSiriSnippet" properties:snipProps];
+    [ctx sendAddViewsSnippet:@"singingSiriSnippet" properties:snipProps];
     //lyrics
     [ctx sendAddViewsUtteranceView:@"Come gather 'round people"];
     [ctx sendAddViewsUtteranceView:@"Wherever you roam"];
