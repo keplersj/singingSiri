@@ -25,78 +25,59 @@
 
 -(BOOL)handleSpeech:(NSString*)text tokens:(NSArray*)tokens tokenSet:(NSSet*)tokenset context:(id<SEContext>)ctx
 {
-    if ([tokens count] >= 2 && [[tokens objectAtIndex:0] isEqualToString:@"sing"] && [tokenset containsObject:@"rhapsody"])
+    if ([tokens count] >= 2 && [[tokens objectAtIndex:0] isEqualToString:@"sing"] && [tokenset containsObject:@"buddy"] && [tokenset containsObject:@"holly"])
 	{
         //song title and artist
-        [ctx sendAddViewsUtteranceView:@"Now Singing: Bohemian Rhapsody by Queen"];
+        [ctx sendAddViewsUtteranceView:@"Now Singing: Buddy Holly by weezer"];
         //album artwork
-		NSDictionary* snipProps = [NSDictionary dictionaryWithObjectsAndKeys:@"Album Art", @"text", @"http://2.bp.blogspot.com/-mYPWNFuHcBM/Td2ZWkbroTI/AAAAAAAABjA/HxCUshdwK0c/s1600/Queen+-+Queen+II.jpg", @"link", nil];
+		NSDictionary* snipProps = [NSDictionary dictionaryWithObjectsAndKeys:@"Album Art", @"text", @"http://weezerpedia.com/wiki/images/2/2d/Weezer-blue-album.jpg", @"link", nil];
 		[ctx sendAddViewsSnippet:@"singingSiriSnippet" properties:snipProps];
         //lyrics
-        [ctx sendAddViewsUtteranceView:@"Is this the real life?"];
-        [ctx sendAddViewsUtteranceView:@"Is this just fantasy?"];
-        [ctx sendAddViewsUtteranceView:@"Caught in a landslide,"];
-        [ctx sendAddViewsUtteranceView:@"No escape from reality"];
-        [ctx sendAddViewsUtteranceView:@"Open your eyes, "];
-        [ctx sendAddViewsUtteranceView:@"Look up to the skies and see,"];
-        [ctx sendAddViewsUtteranceView:@"I'm just a poor boy, I need no sympathy,"];
-        [ctx sendAddViewsUtteranceView:@"Because I'm easy come, easy go, "];
-        [ctx sendAddViewsUtteranceView:@"Little high, little low,"];
-        [ctx sendAddViewsUtteranceView:@"Any way the wind blows doesn't really matter to me, to me"];
+        [ctx sendAddViewsUtteranceView:@"What's with these homies, dissing my girl?"];
+        [ctx sendAddViewsUtteranceView:@"Why do they gotta front?"];
+        [ctx sendAddViewsUtteranceView:@"What did we ever do to these guys"];
+        [ctx sendAddViewsUtteranceView:@"That made them so violent?"];
+        [ctx sendAddViewsUtteranceView:@"Woo-hoo, but you know I'm yours"];
+        [ctx sendAddViewsUtteranceView:@"Woo-hoo, and I know you're mine"];
+        [ctx sendAddViewsUtteranceView:@"Woo-hoo, and that's for all time"];
         [ctx sendAddViewsUtteranceView:@"   "];
-        [ctx sendAddViewsUtteranceView:@"Mama, "];
-        [ctx sendAddViewsUtteranceView:@"I just killed a man,"];
-        [ctx sendAddViewsUtteranceView:@"Put a gun against his head, pulled my trigger "];
-        [ctx sendAddViewsUtteranceView:@"now he's dead"];
-        [ctx sendAddViewsUtteranceView:@"Mama... life had just begun,"];
-        [ctx sendAddViewsUtteranceView:@"But now I've gone and thrown it all away"];
-        [ctx sendAddViewsUtteranceView:@"Mamaaaaa oooh, "];
-        [ctx sendAddViewsUtteranceView:@"Didn't mean to make you cry,"];
-        [ctx sendAddViewsUtteranceView:@"If I'm not back again this time tomorrow,"];
-        [ctx sendAddViewsUtteranceView:@"Carry on, carry on as if nothing really matters"];
-        [ctx sendAddViewsUtteranceView:@"      "];
-        [ctx sendAddViewsUtteranceView:@"Too late, my time has come,"];
-        [ctx sendAddViewsUtteranceView:@"Sends shivers down my spine, body's aching all the time"];
-        [ctx sendAddViewsUtteranceView:@"Goodbye, ev'rybody, I've got to go,"];
-        [ctx sendAddViewsUtteranceView:@"Got to leave you all behind and face the truth"];
-        [ctx sendAddViewsUtteranceView:@"Mamaaaaa oooh, "];
-        [ctx sendAddViewsUtteranceView:@"I don't want to die,"];
-        [ctx sendAddViewsUtteranceView:@"I sometimes wish I'd never been born at all"];
+        [ctx sendAddViewsUtteranceView:@"Oo-ee-oo I look just like Buddy Holly"];
+        [ctx sendAddViewsUtteranceView:@"Oh-oh, and you're Mary Tyler Moore"];
+        [ctx sendAddViewsUtteranceView:@"I don't care what they say about us anyway"];
+        [ctx sendAddViewsUtteranceView:@"I don't care bout that "];
         [ctx sendAddViewsUtteranceView:@"   "];
-        [ctx sendAddViewsUtteranceView:@"I see a little silhouetto of a man,"];
-        [ctx sendAddViewsUtteranceView:@"Scaramouche! Scaramouche! will you do the Fandango?!"];
+        [ctx sendAddViewsUtteranceView:@"Don't you ever fear, I'm always near"];
+        [ctx sendAddViewsUtteranceView:@"I know that you need help"];
+        [ctx sendAddViewsUtteranceView:@"Your tongue is twisted, your eyes are slit"];
+        [ctx sendAddViewsUtteranceView:@"You need a guardian"];
+        [ctx sendAddViewsUtteranceView:@"Woo-hoo, but you know I'm yours"];
+        [ctx sendAddViewsUtteranceView:@"Woo-hoo, and I know you're mine"];
+        [ctx sendAddViewsUtteranceView:@"Woo-hoo, and that's for all time"];
         [ctx sendAddViewsUtteranceView:@"   "];
-        [ctx sendAddViewsUtteranceView:@"Thunderbolt and lightning, very, very frightening me!"];
-        [ctx sendAddViewsUtteranceView:@"Galileo, Galileo"];
-        [ctx sendAddViewsUtteranceView:@"Galileo, Galileo"];
-        [ctx sendAddViewsUtteranceView:@"Galileo, Figaro - magnifico"];
+        [ctx sendAddViewsUtteranceView:@"Oo-ee-oo I look just like Buddy Holly"];
+        [ctx sendAddViewsUtteranceView:@"Oh-oh, and you're Mary Tyler Moore"];
+        [ctx sendAddViewsUtteranceView:@"I don't care what they say about us anyway"];
+        [ctx sendAddViewsUtteranceView:@"I don't care bout that"];
+        [ctx sendAddViewsUtteranceView:@"I don't care bout that"];
         [ctx sendAddViewsUtteranceView:@"  "];
-        [ctx sendAddViewsUtteranceView:@"I'm just a poor boy, nobody loves me"];
-        [ctx sendAddViewsUtteranceView:@"He's just a poor boy from a poor family,"];
-        [ctx sendAddViewsUtteranceView:@"Spare him his life from this monstrosity!"];
-        [ctx sendAddViewsUtteranceView:@"Easy come, easy go, will you let me go"];
-        [ctx sendAddViewsUtteranceView:@"Bismilah! No, we will not let you go"];
-        [ctx sendAddViewsUtteranceView:@"(Let him go!) Bismilah! We will not let you go"];
-        [ctx sendAddViewsUtteranceView:@"(Let him go!) Bismilah! We will not let you go"];
-        [ctx sendAddViewsUtteranceView:@"(Let me go) Will not let you go "];
-        [ctx sendAddViewsUtteranceView:@"(Let me go)(Never) Never let you go"];
-        [ctx sendAddViewsUtteranceView:@"(Let me go) Never let you go (Let me go) Ah"];
-        [ctx sendAddViewsUtteranceView:@"No, no, no, no, no, no, no"];
-        [ctx sendAddViewsUtteranceView:@"Oh mama mia, mama mia, mama mia, let me go"];
-        [ctx sendAddViewsUtteranceView:@"Beelzebub has a devil put aside for me, for me, "];
-        [ctx sendAddViewsUtteranceView:@"for meeeeeeeeeeeeeeee!"];
+        [ctx sendAddViewsUtteranceView:@"Bang, bang a knock on the door"];
+        [ctx sendAddViewsUtteranceView:@"Another big bang and you're down on the floor"];
+        [ctx sendAddViewsUtteranceView:@"Oh no! What do we do?"];
+        [ctx sendAddViewsUtteranceView:@"Don't look now but I lost my shoe"];
+        [ctx sendAddViewsUtteranceView:@"I can't run and I can't kick"];
+        [ctx sendAddViewsUtteranceView:@"What's a matter babe are you feeling sick?"];
+        [ctx sendAddViewsUtteranceView:@"what's a matter, what's a matter, what's a matter you?"];
+        [ctx sendAddViewsUtteranceView:@"What's a matter babe, are you feeling blue? oh-oh!"];
+        [ctx sendAddViewsUtteranceView:@"And that's for all time"];
+        [ctx sendAddViewsUtteranceView:@"And that's for all time "];
         [ctx sendAddViewsUtteranceView:@"  "];
-        [ctx sendAddViewsUtteranceView:@"So you think you can stop me and spit in my eye?!?!"];
-        [ctx sendAddViewsUtteranceView:@"So you think you can love me and leave me to die?!?!"];
-        [ctx sendAddViewsUtteranceView:@"Oh, baby, can't do this to me, baby,"];
-        [ctx sendAddViewsUtteranceView:@"Just gotta get out, just gotta get right outta here!"];
-        [ctx sendAddViewsUtteranceView:@"  "];
-        [ctx sendAddViewsUtteranceView:@"Nothing really matters, Anyone can see,"];
-        [ctx sendAddViewsUtteranceView:@"Nothing really matters,"];
-        [ctx sendAddViewsUtteranceView:@"Nothing really matters to me..."];
-        [ctx sendAddViewsUtteranceView:@"  "];
-        [ctx sendAddViewsUtteranceView:@"Any way the wind blows..."];
-        
+        [ctx sendAddViewsUtteranceView:@"Oo-ee-oo I look just like Buddy Holly"];
+        [ctx sendAddViewsUtteranceView:@"Oh-oh, and you're Mary Tyler Moore"];
+        [ctx sendAddViewsUtteranceView:@"I don't care what they say about us anyway"];
+        [ctx sendAddViewsUtteranceView:@"I don't care bout that"];
+        [ctx sendAddViewsUtteranceView:@"I don't care bout that"];
+        [ctx sendAddViewsUtteranceView:@"I don't care bout that"];
+        [ctx sendAddViewsUtteranceView:@"I don't care bout that"];
         //all done
         [ctx sendRequestCompleted];
         
