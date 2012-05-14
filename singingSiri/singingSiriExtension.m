@@ -14,6 +14,7 @@
 #import "Portal.h"
 #import "Portal2.h"
 #import "Friday.h"
+#import "TimesAreAChangin.h"
 
 @implementation singingSiriExtension
 
@@ -28,6 +29,7 @@
         [system registerCommand:[Portal class]];
         [system registerCommand:[Portal2 class]];
         [system registerCommand:[Friday class]];
+        [system registerCommand:[TimesAreAChangin class]];
 	}
 	return self;
 }

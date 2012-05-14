@@ -14,6 +14,8 @@
 		E6EA000A156186B0004E7F3A /* Portal2.m in Sources */ = {isa = PBXBuildFile; fileRef = E6EA0008156186B0004E7F3A /* Portal2.m */; };
 		E6EA000E15618BD4004E7F3A /* Friday.h in Headers */ = {isa = PBXBuildFile; fileRef = E6EA000C15618BD4004E7F3A /* Friday.h */; };
 		E6EA000F15618BD4004E7F3A /* Friday.m in Sources */ = {isa = PBXBuildFile; fileRef = E6EA000D15618BD4004E7F3A /* Friday.m */; };
+		E6EA001715618FF8004E7F3A /* TimesAreAChangin.h in Headers */ = {isa = PBXBuildFile; fileRef = E6EA001515618FF8004E7F3A /* TimesAreAChangin.h */; };
+		E6EA001815618FF8004E7F3A /* TimesAreAChangin.m in Sources */ = {isa = PBXBuildFile; fileRef = E6EA001615618FF8004E7F3A /* TimesAreAChangin.m */; };
 		E6EAFFD41560DE56004E7F3A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E6EAFFD31560DE56004E7F3A /* Foundation.framework */; };
 		E6EAFFD61560DE56004E7F3A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E6EAFFD51560DE56004E7F3A /* UIKit.framework */; };
 		E6EAFFE61560DE56004E7F3A /* singingSiriCommands.m in Sources */ = {isa = PBXBuildFile; fileRef = E6EAFFE51560DE56004E7F3A /* singingSiriCommands.m */; };
@@ -32,6 +34,8 @@
 		E6EA0008156186B0004E7F3A /* Portal2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Portal2.m; sourceTree = "<group>"; };
 		E6EA000C15618BD4004E7F3A /* Friday.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Friday.h; sourceTree = "<group>"; };
 		E6EA000D15618BD4004E7F3A /* Friday.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Friday.m; sourceTree = "<group>"; };
+		E6EA001515618FF8004E7F3A /* TimesAreAChangin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TimesAreAChangin.h; sourceTree = "<group>"; };
+		E6EA001615618FF8004E7F3A /* TimesAreAChangin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TimesAreAChangin.m; sourceTree = "<group>"; };
 		E6EAFFD01560DE56004E7F3A /* singingSiri.assistantExtension */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = singingSiri.assistantExtension; sourceTree = BUILT_PRODUCTS_DIR; };
 		E6EAFFD31560DE56004E7F3A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		E6EAFFD51560DE56004E7F3A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
@@ -92,6 +96,15 @@
 				E6EA000D15618BD4004E7F3A /* Friday.m */,
 			);
 			name = Friday;
+			sourceTree = "<group>";
+		};
+		E6EA001315618FD6004E7F3A /* The Times they are a Changin */ = {
+			isa = PBXGroup;
+			children = (
+				E6EA001515618FF8004E7F3A /* TimesAreAChangin.h */,
+				E6EA001615618FF8004E7F3A /* TimesAreAChangin.m */,
+			);
+			name = "The Times they are a Changin";
 			sourceTree = "<group>";
 		};
 		E6EAFFC41560DE56004E7F3A = {
@@ -190,6 +203,7 @@
 		E6EAFFF51560E061004E7F3A /* Songs */ = {
 			isa = PBXGroup;
 			children = (
+				E6EA001315618FD6004E7F3A /* The Times they are a Changin */,
 				E6EA000B1561883B004E7F3A /* Friday */,
 				E6EA000615618687004E7F3A /* Portal 2 */,
 				E6EA0001156185C4004E7F3A /* Portal */,
@@ -239,6 +253,7 @@
 				E6EA0004156185D0004E7F3A /* Portal.h in Headers */,
 				E6EA0009156186B0004E7F3A /* Portal2.h in Headers */,
 				E6EA000E15618BD4004E7F3A /* Friday.h in Headers */,
+				E6EA001715618FF8004E7F3A /* TimesAreAChangin.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -329,6 +344,7 @@
 				E6EA0005156185D0004E7F3A /* Portal.m in Sources */,
 				E6EA000A156186B0004E7F3A /* Portal2.m in Sources */,
 				E6EA000F15618BD4004E7F3A /* Friday.m in Sources */,
+				E6EA001815618FF8004E7F3A /* TimesAreAChangin.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -441,6 +457,7 @@
 				E6EAFFF21560DE56004E7F3A /* Debug */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
