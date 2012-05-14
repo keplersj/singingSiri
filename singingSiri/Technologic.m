@@ -26,8 +26,8 @@
 -(BOOL)handleSpeech:(NSString*)text tokens:(NSArray*)tokens tokenSet:(NSSet*)tokenset context:(id<SEContext>)ctx
 {
     
-    if ([tokens count] >= 2 && [[tokens objectAtIndex:0] isEqualToString:@"sing"] &&
-		[tokenset containsObject:@"technologic"])
+    if (([tokens count] >= 2 && [[tokens objectAtIndex:0] isEqualToString:@"sing"] &&
+		[tokenset containsObject:@"technologic"]) || ([tokenset containsObject:@"daft"] && [tokenset containsObject:@"punk"]))
 	{
         //song title and artist
         [ctx sendAddViewsUtteranceView:@"Now Singing: Technologic by Daft Punk"];
