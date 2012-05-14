@@ -16,6 +16,7 @@
 #import "Friday.h"
 #import "TimesAreAChangin.h"
 #import "Technologic.h"
+#import "HarderBetterFasterStronger.h"
 
 @implementation singingSiriExtension
 
@@ -32,6 +33,7 @@
         [system registerCommand:[Friday class]];
         [system registerCommand:[TimesAreAChangin class]];
         [system registerCommand:[Technologic class]];
+        [system registerCommand:[HarderBetterFasterStronger class]];
 	}
 	return self;
 }
