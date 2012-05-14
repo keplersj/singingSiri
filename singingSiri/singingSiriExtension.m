@@ -30,6 +30,7 @@
 #import "Firework.h"
 #import "MovesLikeJagger.h"
 #import "SuperBass.h"
+#import "WhatsMyName.h"
 
 @implementation singingSiriExtension
 
@@ -60,6 +61,7 @@
         [system registerCommand:[Firework class]];
         [system registerCommand:[MovesLikeJagger class]];
         [system registerCommand:[SuperBass class]];
+        [system registerCommand:[WhatsMyName class]];
 
 	}
 	return self;
