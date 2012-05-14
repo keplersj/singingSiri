@@ -44,6 +44,8 @@
 		E6EA00681561B9CE004E7F3A /* Firework.m in Sources */ = {isa = PBXBuildFile; fileRef = E6EA00661561B9CE004E7F3A /* Firework.m */; };
 		E6EA006B1561BA83004E7F3A /* MovesLikeJagger.h in Headers */ = {isa = PBXBuildFile; fileRef = E6EA00691561BA83004E7F3A /* MovesLikeJagger.h */; };
 		E6EA006C1561BA83004E7F3A /* MovesLikeJagger.m in Sources */ = {isa = PBXBuildFile; fileRef = E6EA006A1561BA83004E7F3A /* MovesLikeJagger.m */; };
+		E6EA00701561C036004E7F3A /* SuperBass.h in Headers */ = {isa = PBXBuildFile; fileRef = E6EA006E1561C036004E7F3A /* SuperBass.h */; };
+		E6EA00711561C036004E7F3A /* SuperBass.m in Sources */ = {isa = PBXBuildFile; fileRef = E6EA006F1561C036004E7F3A /* SuperBass.m */; };
 		E6EAFFD41560DE56004E7F3A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E6EAFFD31560DE56004E7F3A /* Foundation.framework */; };
 		E6EAFFD61560DE56004E7F3A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E6EAFFD51560DE56004E7F3A /* UIKit.framework */; };
 		E6EAFFE61560DE56004E7F3A /* singingSiriCommands.m in Sources */ = {isa = PBXBuildFile; fileRef = E6EAFFE51560DE56004E7F3A /* singingSiriCommands.m */; };
@@ -92,6 +94,8 @@
 		E6EA00661561B9CE004E7F3A /* Firework.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Firework.m; sourceTree = "<group>"; };
 		E6EA00691561BA83004E7F3A /* MovesLikeJagger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MovesLikeJagger.h; sourceTree = "<group>"; };
 		E6EA006A1561BA83004E7F3A /* MovesLikeJagger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MovesLikeJagger.m; sourceTree = "<group>"; };
+		E6EA006E1561C036004E7F3A /* SuperBass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SuperBass.h; sourceTree = "<group>"; };
+		E6EA006F1561C036004E7F3A /* SuperBass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SuperBass.m; sourceTree = "<group>"; };
 		E6EAFFD01560DE56004E7F3A /* singingSiri.assistantExtension */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = singingSiri.assistantExtension; sourceTree = BUILT_PRODUCTS_DIR; };
 		E6EAFFD31560DE56004E7F3A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		E6EAFFD51560DE56004E7F3A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
@@ -326,8 +330,18 @@
 		E6EA00601561B97A004E7F3A /* Version .2 */ = {
 			isa = PBXGroup;
 			children = (
+				E6EA006D1561C01E004E7F3A /* Super Bass */,
 			);
 			name = "Version .2";
+			sourceTree = "<group>";
+		};
+		E6EA006D1561C01E004E7F3A /* Super Bass */ = {
+			isa = PBXGroup;
+			children = (
+				E6EA006E1561C036004E7F3A /* SuperBass.h */,
+				E6EA006F1561C036004E7F3A /* SuperBass.m */,
+			);
+			name = "Super Bass";
 			sourceTree = "<group>";
 		};
 		E6EAFFC41560DE56004E7F3A = {
@@ -488,6 +502,7 @@
 				E6EA00631561B98E004E7F3A /* Grenade.h in Headers */,
 				E6EA00671561B9CE004E7F3A /* Firework.h in Headers */,
 				E6EA006B1561BA83004E7F3A /* MovesLikeJagger.h in Headers */,
+				E6EA00701561C036004E7F3A /* SuperBass.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -593,6 +608,7 @@
 				E6EA00641561B98E004E7F3A /* Grenade.m in Sources */,
 				E6EA00681561B9CE004E7F3A /* Firework.m in Sources */,
 				E6EA006C1561BA83004E7F3A /* MovesLikeJagger.m in Sources */,
+				E6EA00711561C036004E7F3A /* SuperBass.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

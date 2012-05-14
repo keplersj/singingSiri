@@ -25,7 +25,7 @@
 
 -(BOOL)handleSpeech:(NSString*)text tokens:(NSArray*)tokens tokenSet:(NSSet*)tokenset context:(id<SEContext>)ctx
 {
-    if ([tokens count] >= 2 && [[tokens objectAtIndex:0] isEqualToString:@"sing"] && [tokenset containsObject:@"moves"] && [tokenset containsObject:@"like"] && [tokenset containsObject:@"jagger"])
+    if ([tokens count] >= 2 && [[tokens objectAtIndex:0] isEqualToString:@"sing"] && [tokenset containsObject:@"moves"] && [tokenset containsObject:@"like"] && [tokenset containsObject:@"Jagger"])
 	{
         //song title and artist
         [ctx sendAddViewsUtteranceView:@"Now Singing: Moves Like Jagger by Maroon 5"];

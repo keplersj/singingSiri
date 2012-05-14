@@ -29,6 +29,7 @@
 #import "Grenade.h"
 #import "Firework.h"
 #import "MovesLikeJagger.h"
+#import "SuperBass.h"
 
 @implementation singingSiriExtension
 
@@ -58,6 +59,7 @@
         [system registerCommand:[Grenade class]];
         [system registerCommand:[Firework class]];
         [system registerCommand:[MovesLikeJagger class]];
+        [system registerCommand:[SuperBass class]];
 
 	}
 	return self;
