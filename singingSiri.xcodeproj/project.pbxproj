@@ -16,6 +16,8 @@
 		E6EA000F15618BD4004E7F3A /* Friday.m in Sources */ = {isa = PBXBuildFile; fileRef = E6EA000D15618BD4004E7F3A /* Friday.m */; };
 		E6EA001715618FF8004E7F3A /* TimesAreAChangin.h in Headers */ = {isa = PBXBuildFile; fileRef = E6EA001515618FF8004E7F3A /* TimesAreAChangin.h */; };
 		E6EA001815618FF8004E7F3A /* TimesAreAChangin.m in Sources */ = {isa = PBXBuildFile; fileRef = E6EA001615618FF8004E7F3A /* TimesAreAChangin.m */; };
+		E6EA00231561A28F004E7F3A /* Technologic.h in Headers */ = {isa = PBXBuildFile; fileRef = E6EA00211561A28F004E7F3A /* Technologic.h */; };
+		E6EA00241561A28F004E7F3A /* Technologic.m in Sources */ = {isa = PBXBuildFile; fileRef = E6EA00221561A28F004E7F3A /* Technologic.m */; };
 		E6EAFFD41560DE56004E7F3A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E6EAFFD31560DE56004E7F3A /* Foundation.framework */; };
 		E6EAFFD61560DE56004E7F3A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E6EAFFD51560DE56004E7F3A /* UIKit.framework */; };
 		E6EAFFE61560DE56004E7F3A /* singingSiriCommands.m in Sources */ = {isa = PBXBuildFile; fileRef = E6EAFFE51560DE56004E7F3A /* singingSiriCommands.m */; };
@@ -36,6 +38,8 @@
 		E6EA000D15618BD4004E7F3A /* Friday.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Friday.m; sourceTree = "<group>"; };
 		E6EA001515618FF8004E7F3A /* TimesAreAChangin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TimesAreAChangin.h; sourceTree = "<group>"; };
 		E6EA001615618FF8004E7F3A /* TimesAreAChangin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TimesAreAChangin.m; sourceTree = "<group>"; };
+		E6EA00211561A28F004E7F3A /* Technologic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Technologic.h; sourceTree = "<group>"; };
+		E6EA00221561A28F004E7F3A /* Technologic.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Technologic.m; sourceTree = "<group>"; };
 		E6EAFFD01560DE56004E7F3A /* singingSiri.assistantExtension */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = singingSiri.assistantExtension; sourceTree = BUILT_PRODUCTS_DIR; };
 		E6EAFFD31560DE56004E7F3A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		E6EAFFD51560DE56004E7F3A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
@@ -105,6 +109,15 @@
 				E6EA001615618FF8004E7F3A /* TimesAreAChangin.m */,
 			);
 			name = "The Times they are a Changin";
+			sourceTree = "<group>";
+		};
+		E6EA001F1561A271004E7F3A /* Technologic */ = {
+			isa = PBXGroup;
+			children = (
+				E6EA00211561A28F004E7F3A /* Technologic.h */,
+				E6EA00221561A28F004E7F3A /* Technologic.m */,
+			);
+			name = Technologic;
 			sourceTree = "<group>";
 		};
 		E6EAFFC41560DE56004E7F3A = {
@@ -203,6 +216,7 @@
 		E6EAFFF51560E061004E7F3A /* Songs */ = {
 			isa = PBXGroup;
 			children = (
+				E6EA001F1561A271004E7F3A /* Technologic */,
 				E6EA001315618FD6004E7F3A /* The Times they are a Changin */,
 				E6EA000B1561883B004E7F3A /* Friday */,
 				E6EA000615618687004E7F3A /* Portal 2 */,
@@ -254,6 +268,7 @@
 				E6EA0009156186B0004E7F3A /* Portal2.h in Headers */,
 				E6EA000E15618BD4004E7F3A /* Friday.h in Headers */,
 				E6EA001715618FF8004E7F3A /* TimesAreAChangin.h in Headers */,
+				E6EA00231561A28F004E7F3A /* Technologic.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -345,6 +360,7 @@
 				E6EA000A156186B0004E7F3A /* Portal2.m in Sources */,
 				E6EA000F15618BD4004E7F3A /* Friday.m in Sources */,
 				E6EA001815618FF8004E7F3A /* TimesAreAChangin.m in Sources */,
+				E6EA00241561A28F004E7F3A /* Technologic.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
