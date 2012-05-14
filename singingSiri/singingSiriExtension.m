@@ -20,6 +20,7 @@
 #import "SexyAndIKnowIt.h"
 #import "PartyRock.h"
 #import "AmericanIdiot.h"
+#import "MagicalMysteryTour.h"
 
 @implementation singingSiriExtension
 
@@ -40,6 +41,7 @@
         [system registerCommand:[SexyAndIKnowIt class]];
         [system registerCommand:[PartyRock class]];
         [system registerCommand:[AmericanIdiot class]];
+        [system registerCommand:[MagicalMysteryTour class]];
 	}
 	return self;
 }

@@ -26,6 +26,8 @@
 		E6EA00331561AD5E004E7F3A /* PartyRock.m in Sources */ = {isa = PBXBuildFile; fileRef = E6EA00311561AD5E004E7F3A /* PartyRock.m */; };
 		E6EA00381561AED9004E7F3A /* AmericanIdiot.h in Headers */ = {isa = PBXBuildFile; fileRef = E6EA00361561AED9004E7F3A /* AmericanIdiot.h */; };
 		E6EA00391561AED9004E7F3A /* AmericanIdiot.m in Sources */ = {isa = PBXBuildFile; fileRef = E6EA00371561AED9004E7F3A /* AmericanIdiot.m */; };
+		E6EA003E1561B006004E7F3A /* MagicalMysteryTour.h in Headers */ = {isa = PBXBuildFile; fileRef = E6EA003C1561B006004E7F3A /* MagicalMysteryTour.h */; };
+		E6EA003F1561B006004E7F3A /* MagicalMysteryTour.m in Sources */ = {isa = PBXBuildFile; fileRef = E6EA003D1561B006004E7F3A /* MagicalMysteryTour.m */; };
 		E6EAFFD41560DE56004E7F3A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E6EAFFD31560DE56004E7F3A /* Foundation.framework */; };
 		E6EAFFD61560DE56004E7F3A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E6EAFFD51560DE56004E7F3A /* UIKit.framework */; };
 		E6EAFFE61560DE56004E7F3A /* singingSiriCommands.m in Sources */ = {isa = PBXBuildFile; fileRef = E6EAFFE51560DE56004E7F3A /* singingSiriCommands.m */; };
@@ -56,6 +58,8 @@
 		E6EA00311561AD5E004E7F3A /* PartyRock.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PartyRock.m; sourceTree = "<group>"; };
 		E6EA00361561AED9004E7F3A /* AmericanIdiot.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AmericanIdiot.h; sourceTree = "<group>"; };
 		E6EA00371561AED9004E7F3A /* AmericanIdiot.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AmericanIdiot.m; sourceTree = "<group>"; };
+		E6EA003C1561B006004E7F3A /* MagicalMysteryTour.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MagicalMysteryTour.h; sourceTree = "<group>"; };
+		E6EA003D1561B006004E7F3A /* MagicalMysteryTour.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MagicalMysteryTour.m; sourceTree = "<group>"; };
 		E6EAFFD01560DE56004E7F3A /* singingSiri.assistantExtension */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = singingSiri.assistantExtension; sourceTree = BUILT_PRODUCTS_DIR; };
 		E6EAFFD31560DE56004E7F3A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		E6EAFFD51560DE56004E7F3A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
@@ -189,6 +193,24 @@
 			name = "Version .1";
 			sourceTree = "<group>";
 		};
+		E6EA003A1561AFCE004E7F3A /* Version .2 */ = {
+			isa = PBXGroup;
+			children = (
+				E6EA003B1561AFE2004E7F3A /* Magical Mystery Tour */,
+				E6EA00341561AE86004E7F3A /* American Idiot */,
+			);
+			name = "Version .2";
+			sourceTree = "<group>";
+		};
+		E6EA003B1561AFE2004E7F3A /* Magical Mystery Tour */ = {
+			isa = PBXGroup;
+			children = (
+				E6EA003C1561B006004E7F3A /* MagicalMysteryTour.h */,
+				E6EA003D1561B006004E7F3A /* MagicalMysteryTour.m */,
+			);
+			name = "Magical Mystery Tour";
+			sourceTree = "<group>";
+		};
 		E6EAFFC41560DE56004E7F3A = {
 			isa = PBXGroup;
 			children = (
@@ -285,7 +307,7 @@
 		E6EAFFF51560E061004E7F3A /* Songs */ = {
 			isa = PBXGroup;
 			children = (
-				E6EA00341561AE86004E7F3A /* American Idiot */,
+				E6EA003A1561AFCE004E7F3A /* Version .2 */,
 				E6EA00351561AE8B004E7F3A /* Version .1 */,
 				E6EAFFF61560E069004E7F3A /* Basic */,
 			);
@@ -337,6 +359,7 @@
 				E6EA002D1561A762004E7F3A /* SexyAndIKnowIt.h in Headers */,
 				E6EA00321561AD5E004E7F3A /* PartyRock.h in Headers */,
 				E6EA00381561AED9004E7F3A /* AmericanIdiot.h in Headers */,
+				E6EA003E1561B006004E7F3A /* MagicalMysteryTour.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -433,6 +456,7 @@
 				E6EA002E1561A762004E7F3A /* SexyAndIKnowIt.m in Sources */,
 				E6EA00331561AD5E004E7F3A /* PartyRock.m in Sources */,
 				E6EA00391561AED9004E7F3A /* AmericanIdiot.m in Sources */,
+				E6EA003F1561B006004E7F3A /* MagicalMysteryTour.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
